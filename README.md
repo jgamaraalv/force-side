@@ -21,6 +21,10 @@ will determine who will be your master and what side of the force you're alignme
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to access
+
+Hosted on GithubPages. [Click here](https://jgamaraalv.github.io/force-side/).
+
 ## Available Scripts
 
 In the project directory, you can run:
