@@ -1,6 +1,6 @@
-A simple project to choose your force side.
-
 ## Project description
+
+A simple project to choose your force side.
 
 Based on response time and your alignment with force, the request which returns the datas first
 will determine who will be your master and what side of the force you're alignment.
