@@ -9,5 +9,5 @@ export interface FetchDataResponse {
 }
 
 export const fetchData = async (): Promise<FetchDataResponse[]> => {
-  return await fetchUrlsArray([`${API_URL}/people/1`, `${API_URL}/people/4`]);
+  return await fetchUrlsArray([`${API_URL}/people/1/`, `${API_URL}/people/4/`]);
 };
