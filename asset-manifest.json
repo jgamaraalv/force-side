@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/force-side/static/js/main.20cab72b.chunk.js",
+    "main.js.map": "/force-side/static/js/main.20cab72b.chunk.js.map",
+    "runtime-main.js": "/force-side/static/js/runtime-main.9674b7fc.js",
+    "runtime-main.js.map": "/force-side/static/js/runtime-main.9674b7fc.js.map",
+    "static/js/2.12e96a0d.chunk.js": "/force-side/static/js/2.12e96a0d.chunk.js",
+    "static/js/2.12e96a0d.chunk.js.map": "/force-side/static/js/2.12e96a0d.chunk.js.map",
+    "index.html": "/force-side/index.html",
+    "precache-manifest.c50a71d69526d3e1355a6f7f79c21fdc.js": "/force-side/precache-manifest.c50a71d69526d3e1355a6f7f79c21fdc.js",
+    "service-worker.js": "/force-side/service-worker.js",
+    "static/js/2.12e96a0d.chunk.js.LICENSE.txt": "/force-side/static/js/2.12e96a0d.chunk.js.LICENSE.txt",
+    "static/media/darth-vader.png": "/force-side/static/media/darth-vader.3e06b3a8.png",
+    "static/media/luke-skywalker.png": "/force-side/static/media/luke-skywalker.738fc480.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9674b7fc.js",
+    "static/js/2.12e96a0d.chunk.js",
+    "static/js/main.20cab72b.chunk.js"
+  ]
+}
