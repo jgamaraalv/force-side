@@ -6,9 +6,10 @@ import { FETCH_PEOPLE, fetchPeopleError, fetchPeopleSuccess } from "./actions";
 export function* fetchPeople() {
   try {
     const [luke, darth]: FetchDataResponse[] = yield fetchData();
-    let people;
-
-    luke.time > darth.time ? (people = luke.data) : (people = darth.data);
+    const people: FetchDataResponse["data"] =
+      luke.time > darth.time
+        ? { ...luke.data, force: "light" }
+        : { ...darth.data, force: "darkness" };
 
     yield put(fetchPeopleSuccess(people));
   } catch (e) {

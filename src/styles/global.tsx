@@ -1,14 +1,24 @@
 import { createGlobalStyle } from "styled-components";
 
+import { rules } from "./breakpoints";
+
 const StyledGlobal = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+
   html {
     line-height: normal;
   }
+  
   body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media ${rules.smOnly} {
+    html, body, #root {
+      height: 100%;
+    }
   }
 `;
 

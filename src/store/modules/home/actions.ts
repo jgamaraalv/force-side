@@ -23,11 +23,11 @@ export function fetchPeopleError(
 
 export interface FetchPeopleSuccessAction
   extends Action<typeof FETCH_PEOPLE_SUCCESS> {
-  payload: { people: NonNullable<HomeModuleState["people"]> };
+  payload: { data: NonNullable<HomeModuleState["people"]["data"]> };
 }
 
 export function fetchPeopleSuccess(
-  people: FetchPeopleSuccessAction["payload"]["people"]
+  data: FetchPeopleSuccessAction["payload"]["data"]
 ): FetchPeopleSuccessAction {
-  return { type: FETCH_PEOPLE_SUCCESS, payload: { people } };
+  return { type: FETCH_PEOPLE_SUCCESS, payload: { data } };
 }

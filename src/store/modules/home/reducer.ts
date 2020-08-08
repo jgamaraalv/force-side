@@ -31,7 +31,7 @@ const homeReducer: Reducer<HomeModuleState> = (
         ...state,
         people: {
           ...state.people,
-          ...action.payload.people,
+          data: action.payload.data,
           error: undefined,
           status: "loaded",
         },

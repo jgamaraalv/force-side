@@ -1,5 +1,6 @@
 interface People {
-  name: "";
+  name: string;
+  force: "light" | "darkness";
 }
 
 export default People;
