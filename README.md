@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to access
 
-Hosted on GithubPages. [Click here](https://jgamaraalv.github.io/force-side/).
+Hosted on Github pages. [Click here](https://jgamaraalv.github.io/force-side/).
 
 ## Available Scripts
 
