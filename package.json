@@ -2,6 +2,7 @@
   "name": "iclinic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jgamaraalv.github.io/force-side/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -18,6 +19,8 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
@@ -37,12 +40,13 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash-es": "^4.17.3",
-    "@types/react-redux": "^7.1.9",
-    "@types/styled-components": "^5.1.2",
     "@types/jest": "^24.0.0",
+    "@types/lodash-es": "^4.17.3",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0"
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.9",
+    "@types/styled-components": "^5.1.2",
+    "gh-pages": "^3.1.0"
   }
 }
