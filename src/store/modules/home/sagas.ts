@@ -8,8 +8,8 @@ export function* fetchPeople() {
     const [luke, darth]: FetchDataResponse[] = yield fetchData();
     const people: FetchDataResponse["data"] =
       luke.time > darth.time
-        ? { ...luke.data, force: "light" }
-        : { ...darth.data, force: "darkness" };
+        ? { ...darth.data, force: "darkness" }
+        : { ...luke.data, force: "light" };
 
     yield put(fetchPeopleSuccess(people));
   } catch (e) {
