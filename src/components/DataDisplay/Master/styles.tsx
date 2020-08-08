@@ -36,6 +36,7 @@ export const StyledContainer = styled.div<StyledContainerProps>`
     cursor: pointer;
     font-weight: 700;
     height: 56px;
+    max-width: 347px;
     order: 3;
     width: 100%;
 
@@ -63,7 +64,7 @@ export const StyledContainer = styled.div<StyledContainerProps>`
   .master-img {
     align-items: center;
     display: flex;
-    height: 331px;
+    height: 285px;
 
     img {
       border-radius: 50%;
@@ -89,10 +90,6 @@ export const StyledContainer = styled.div<StyledContainerProps>`
 
   @media ${rules.md} {
     padding: 35px 52px;
-
-    .choose-button {
-      width: 347px;
-    }
 
     .choose-button {
       order: 0;
