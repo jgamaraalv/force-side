@@ -29,7 +29,11 @@ const Master: React.FC = () => {
   return (
     <StyledContainer paletteColors={DataDisplayPalette[data!.force]}>
       <div className="header">
-        <button className="back-button" onClick={backButtonClickHandler}>
+        <button
+          data-testid="back-button"
+          className="back-button"
+          onClick={backButtonClickHandler}
+        >
           <BackIcon /> back
         </button>
       </div>
@@ -47,7 +51,7 @@ const Master: React.FC = () => {
           )}
         </div>
 
-        <h2 className="master-name">
+        <h2 data-testid="master-name" className="master-name">
           Your master is <strong>{data!.name}</strong>
         </h2>
       </div>

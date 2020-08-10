@@ -45,22 +45,6 @@ export const StyledContainer = styled.div<StyledContainerProps>`
     }
   }
 
-  .back-button {
-    align-items: center;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    display: flex;
-    font-size: 18px;
-    font-weight: 300;
-    height: 47px;
-    width: 120px;
-
-    svg {
-      margin-right: 20px;
-    }
-  }
-
   .master-img {
     align-items: center;
     display: flex;

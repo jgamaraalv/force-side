@@ -18,7 +18,7 @@ const Modal: React.FC = ({ children }) => {
   }, []);
 
   return createPortal(
-    <StyledContainer>{children}</StyledContainer>,
+    <StyledContainer data-testid="modal">{children}</StyledContainer>,
     rootElement.current
   );
 };

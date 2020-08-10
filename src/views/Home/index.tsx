@@ -39,13 +39,14 @@ const Home: React.FC = () => {
 
       <StyledStartButton
         disabled={loadingMaster}
+        data-testid="start-button"
         onClick={startButtonClickHandler}
       >
         {loadingMaster ? "..." : "Start"}
       </StyledStartButton>
 
       {errorInFetch && (
-        <p>
+        <p data-testid="error-message">
           Ocorreu um erro na requisição. <br />
           Clique no botão <b>start</b> para tentar novamente.
         </p>
